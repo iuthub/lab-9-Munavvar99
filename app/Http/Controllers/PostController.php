@@ -65,3 +65,4 @@ class PostController extends Controller
         return redirect()->route('admin.index')->with('info', 'Post edited, new Title is: ' . $request->input('title'));
     }
 }
+
